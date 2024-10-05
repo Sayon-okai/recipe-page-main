@@ -25,8 +25,29 @@
 
     .omelette {
                   width: 80%;
+
                   /* border-radius: 5%; */
 
+    }
+
+    /* List item stying rule below class inside */
+    .inside {
+                margin-left: 10px;
+    }
+
+    .heading-3 {
+                 color:  hsl(332, 51%, 32%);
+                 font-family: assets\fonts\outfit\Outfit-VariableFont_wght;
+                 
+    }
+
+    .heading {
+                   font-family: assets\fonts\outfit\Outfit-VariableFont_wght;
+                  
+    }
+
+    .prep-time {
+             
     }
   </style>
 </head>
@@ -39,20 +60,20 @@
      </div>
     <div class="col">
       <div class="row">
-        <h1 class="heading-1">Simple Omelette Recipe</h1>
+        <h1 class="heading-1 heading">Simple Omelette Recipe</h1>
         <p>
           An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
           to perfection, optionally filled with your choice of cheese, vegetables, or meats.
         </p>
       </div>
     </div>
-    <div class="col">
-      <div class="row alert alert-danger">
+    <div class="col-12 col-lg-6 prep-time">
+      <div class="row alert bg-danger-subtle">
         <h3 class="heading-3 "><b>Preparation time</b></h3>
-        <ul>
-          <li>Total: Approximately 10 minutes</li>
-          Preparation: 5 minutes
-          Cooking: 5 minutes
+        <ul class="p-sm-4">
+          <li class="inside">Total: Approximately 10 minutes</li>
+          <li class="inside">Preparation: 5 minutes</li>
+          <li class="inside">Cooking: 5 minutes</li>
         </ul>
       </div>
     </div>
