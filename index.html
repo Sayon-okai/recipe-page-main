@@ -19,6 +19,11 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
 
+
+        
+
+
+
     div {
           margin: 15px;
     }
@@ -37,19 +42,30 @@
     .ingre-div {
       background: rgb(238,174,202);
       background: radial-gradient(circle, rgba(248, 245, 247, 0) 70%, rgb(236, 240, 243) 100%);
-      border-bottom: 2px solid #966608;
+      border-bottom: 2px solid #f3eee3;
 
     }
 
     /* List item stying rule below class inside */
     .inside {
                 margin-left: 10px;
+                
+                
                
     }
 
+    li {
+          text-align: start;
+          text-wrap: wrap;
+          font-family: assets\fonts\young-serif\YoungSerif-Regular;
+
+    }
+
     li::marker {
-                        color: #966608;
+                        color: #995906;
+                        font-weight: bolder;
                         margin-bottom: 15px;
+                        
     }
 /* heading fonts block */
     .heading-3 {
@@ -59,9 +75,29 @@
     }
 
     .heading {
-                  color: #966608;
+                  color: #995906;
+                  font-family: assets\fonts\young-serif\YoungSerif-Regular;
+                  font-weight: bolder;
                 
                   
+    }
+
+    .heading-1 {
+                 font-family: assets\fonts\young-serif\YoungSerif-Regular;
+                 font-size: 2rem;
+                 font-weight: bolder;
+    }
+
+    /* table context style */
+
+    table {
+              font-family: assets\fonts\young-serif\YoungSerif-Regular;
+    }
+
+   table .grams {
+              color: #995906;
+              font-weight: bolder;
+              font-family: assets\fonts\young-serif\YoungSerif-Regular;
     }
 
     
@@ -87,9 +123,9 @@
       <div class="row alert bg-danger-subtle">
         <h3 class="heading-3 "><b>Preparation time</b></h3>
         <ul class="p-sm-4">
-          <li class="inside">Total: Approximately 10 minutes</li>
-          <li class="inside">Preparation: 5 minutes</li>
-          <li class="inside">Cooking: 5 minutes</li>
+          <li class="inside"><b>Total:</b> Approximately 10 minutes</li>
+          <li class="inside"><b>Preparation:</b> 5 minutes</li>
+          <li class="inside"><b>Cooking:</b> 5 minutes</li>
         </ul>
       </div>
     </div>
@@ -98,11 +134,11 @@
       <div class="col p-3 ingre-div">
         <h3 class="heading">Ingredients</h3>
         <ul class="p-3">
-          <li class="inside">2-3 large eggs</li>
-          <li class="inside">Salt, to taste</li>
-          <li class="inside">Pepper, to taste</li>
-          <li class="inside">1 tablespoon of butter or oil</li>
-          <li class="inside">Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+          <li class="inside">&nbsp; 2-3 large eggs</li>
+          <li class="inside">&nbsp; Salt, to taste</li>
+          <li class="inside">&nbsp; Pepper, to taste</li>
+          <li class="inside">&nbsp; 1 tablespoon of butter or oil</li>
+          <li class="inside">&nbsp; Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
         </ul>
       </div> 
     </div>
@@ -112,24 +148,24 @@
         <ol >
           <li>
             
-              <b>Beat the eggs</b>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
+              &nbsp; <b>Beat the eggs</b>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
               You can add a tablespoon of water or milk for a fluffier texture.
           </li>
           
-          <li><b>Heat the pan</b>: Place a non-stick frying pan over medium heat and add butter or oil.</li>
+          <li>&nbsp; <b>Heat the pan</b>: Place a non-stick frying pan over medium heat and add butter or oil.</li>
           <li>
-            Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+            &nbsp; <b>Cook the omelette</b>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
             the eggs evenly coat the surface.
           </li>
           <li>
-            <b>Add fillings (optional)</b>: When the eggs begin to set at the edges but are still slightly runny in the
+           &nbsp;  <b>Add fillings (optional)</b>: When the eggs begin to set at the edges but are still slightly runny in the
             middle, sprinkle your chosen fillings over one half of the omelette.
           </li>
           <li>
-            <b>Fold and serve</b>: As the omelette continues to cook, carefully lift one edge and fold it over the
+            &nbsp; <b>Fold and serve</b>: As the omelette continues to cook, carefully lift one edge and fold it over the
             fillings. Let it cook for another minute, then slide it onto a plate.
           </li>
-          <li><b>Enjoy</b>: Serve hot, with additional salt and pepper if needed.</li>
+          <li>&nbsp; <b>Enjoy</b>: Serve hot, with additional salt and pepper if needed.</li>
 
        <br>
           <table class="table">
@@ -139,21 +175,21 @@
              
             </p>
             <tbody>
-              <tr scope="row">
+              <tr>
                 <td>Calories</td>
-                <td>277kcal</td>
+                <td class="grams">277kcal</td>
               </tr>
-              <tr scope="row">
+              <tr>
                 <td>Carbs</td>
-                <td>0g</td>
+                <td class="grams">0g</td>
               </tr>
-              <tr scope="row">
+              <tr>
                 <td>Protein</td>
-                <td>20g</td>
+                <td class="grams">20g</td>
               </tr>
-              <tr scope="row">
+              <tr>
                 <td> Fat</td>
-                <td>22g</td>
+                <td class="grams">22g</td>
               </tr>
              
              
